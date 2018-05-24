@@ -66,8 +66,11 @@
         
         // 计算图片应该插入的位置
         if(index<=texts.count){
+            
             if(index == 0){
+                
                 locationIndex = 0;
+                
             }
             else{
                 if(i<index){
